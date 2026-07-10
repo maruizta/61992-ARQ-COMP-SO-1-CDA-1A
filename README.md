@@ -51,3 +51,8 @@ Por que tenemos paso de corriente solo con 0 y 1 ?
 Teniendo claro todo eso, se proce a energizar las entradas y contectar las salidas.
 
 ![alt text](./logic_gates/nand.png)
+
+### Invert
+Como podemos ver en la imagen, solo vamos a representar 2 estados. Prestamos atención la primera y última fila del NAND. Que son los pares (0,0) y (1,1). Sus resultados son invertidos. Teniendo eso en cuenta conectamos las 2 entradas del NAND a la misma fuente de energía. 
+
+![alt text](./logic_gates/invert.png)
