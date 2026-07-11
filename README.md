@@ -61,3 +61,8 @@ Como podemos ver en la imagen, solo vamos a representar 2 estados. Prestamos ate
 El operador AND es mas sencillo. Si el NAND (que hicimos al comienzo), era la negación del AND, para volver a hacer AND, tenemos que volver a negaro con un INVERT
 
 ![alt text](./logic_gates/and.png)
+
+### Or
+Prestando atención a la tabla de del OR notamos que es contraria al AND, por ello negamos las ambas entradas con INVERT. 
+
+![alt text](./logic_gates/or.png)
