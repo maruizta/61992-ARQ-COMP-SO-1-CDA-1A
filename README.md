@@ -66,3 +66,14 @@ El operador AND es mas sencillo. Si el NAND (que hicimos al comienzo), era la ne
 Prestando atención a la tabla de del OR notamos que es contraria al AND, por ello negamos las ambas entradas con INVERT. 
 
 ![alt text](./logic_gates/or.png)
+
+### Xor
+Nos fijamos en sus salidas (0,1,1,0). Para lograr dicha salida el OR obtenemos las 3 primeras salidas (0,1,1). En el último par nos falla ya que 1 y 1 = 1 pero necesitamos un cero. 
+
+Con eso descubrimos que el par del conflicto es (1,1). Fijándonos en los demás operadores con NAND podemos obtener 1 y 1 = 0. Asi que energizamos sus dos entradas a A y B respectivamente. 
+
+Con OR obteníamos 3 primeros pares. Asi que tambien conectamos sus entradas a A y B respectivamente. 
+
+Finalmente unimos los resultados de NAND y OR usando AND. 
+
+![alt text](./logic_gates/xor.png)
