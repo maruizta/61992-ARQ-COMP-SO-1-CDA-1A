@@ -77,3 +77,8 @@ Con OR obteníamos 3 primeros pares. Asi que tambien conectamos sus entradas a A
 Finalmente unimos los resultados de NAND y OR usando AND. 
 
 ![alt text](./logic_gates/xor.png)
+
+
+# ARP
+
+![alt text](./arp.png)
