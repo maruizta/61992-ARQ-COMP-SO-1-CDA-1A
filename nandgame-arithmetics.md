@@ -55,3 +55,24 @@ Ahora a la suma anterior sumemos un bit mas para que se convierta en un Full Add
 Ahora, esta mas claro el resultado de la tabla anterior. En un Full Adder su resultamos maximo es 3 y solo puede tener un carry. Si queremos sumar numeros mas grandes que 3, tenemos que combinar varios Full Adder. De igual manera por cada Full Adder que aumentemos tendremos un bit mas para Carry. 
 
 ![alt text](./arithmetics/full_adder.png)
+
+### Increment
+Ya que el increment consiste en aumentar la cantidad en 1, agregamos un bit adicional como constante. 
+
+
+![alt text](./arithmetics/increment.png)
+
+### Substract
+Invertimos todos los bits de una entrada usando **inv 16**. El segundo valor lo dejamos tal como esta. El resultado esta en hexadecimal. Para convertirlo a decimal invertimos nuevamente todos sus bits usando **inv 16**
+
+![alt text](./arithmetics/substract.png)
+
+### Equal to Zero
+Prestando atencion a la tabla de verdad del operador **or** tenemos que, basta que una entrada sea **1** para que el resultado sea **1**. Es lo opuesto a lo que buscamos. Por eso usamos un **inv** con el resultado. Hacmos lo mismo con el otro par de entradas y los unimos con un **and**
+
+![alt text](./arithmetics/equal_zero.png)
+
+
+
+
+
