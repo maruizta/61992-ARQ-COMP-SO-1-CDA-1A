@@ -72,6 +72,12 @@ Prestando atencion a la tabla de verdad del operador **or** tenemos que, basta q
 
 ![alt text](./arithmetics/equal_zero.png)
 
+### Less than Zero (is negative)
+En este caso, solo seguimos las indicaciones que nos muestra la plataforma en el costado.
+
+![alt text](./arithmetics/less_than_zero.png)
+
+
 
 
 
